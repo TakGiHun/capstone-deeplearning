@@ -2,6 +2,6 @@ fastapi==0.120.4
 uvicorn==0.38.0
 pydantic==2.12.3
 numpy==1.26.4
-pillow==10.2.0
+pillow==10.0.1
 requests==2.31.0
 python-multipart==0.0.20
