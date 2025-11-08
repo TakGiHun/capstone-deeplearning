@@ -205,3 +205,83 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# =====================
+# Python 관련
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+*.log
+
+# =====================
+# 가상환경 / 패키지
+# =====================
+env/
+venv/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =====================
+# Jupyter / 노트북
+# =====================
+.ipynb_checkpoints/
+*.ipynb
+
+# =====================
+# 시스템 파일 (Mac/Windows)
+# =====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================
+# 환경 변수 및 보안 관련
+# =====================
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# =====================
+# 데이터 / 모델 관련
+# =====================
+# 얼굴 임베딩, 캐시, 모델 체크포인트 등 (Render에 올리지 않기)
+data/
+embeddings/
+models/
+checkpoints/
+runs/
+__outputs__/
+tmp/
+cache/
+
+# =====================
+# 편집기 / IDE 설정
+# =====================
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+# =====================
+# 빌드 / 배포 관련
+# =====================
+build/
+dist/
+*.egg-info/
+*.whl
+node_modules/
+*.sqlite3
+
